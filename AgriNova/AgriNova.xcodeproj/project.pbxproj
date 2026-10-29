@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C424CDBB0002DDA719DEC07 /* AgriNovaWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 56A245907AD4DE5C168BE485 /* AgriNovaWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80B1E4F3C1CCE3FDFF3F58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730E3AE3B09616860B61B410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3A7B6F1242ABC70B097D8D;
+			remoteInfo = AgriNovaWidget;
+		};
+		8BA815B399758A5D7F6F3043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730E3AE3B09616860B61B410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 677B8D180513F29BF4783CAB;
+			remoteInfo = AgriNova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		225A1C698017EB878D95FCE6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C424CDBB0002DDA719DEC07 /* AgriNovaWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82FFABF25E6D54C720390573 /* AgriNova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgriNova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A245907AD4DE5C168BE485 /* AgriNovaWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AgriNovaWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E010B8ECCC1E5721158452 /* AgriNovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgriNovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A61C80B299EE10E41F4BAF22 /* Exceptions for "AgriNova" folder in "AgriNova" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AgriNova.entitlements,
+				Info.plist,
+			);
+			target = 677B8D180513F29BF4783CAB /* AgriNova */;
+		};
+		9AF672BA46587F362E296C06 /* Exceptions for "AgriNovaWidget" folder in "AgriNovaWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AgriNovaWidget.entitlements,
+				Info.plist,
+			);
+			target = 9A3A7B6F1242ABC70B097D8D /* AgriNovaWidget */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A2835DD0D8AC44855F98148 /* AgriNova */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A61C80B299EE10E41F4BAF22 /* Exceptions */,
+			);
+			path = AgriNova;
+			sourceTree = "<group>";
+		};
+		5FF55100F39EE4C007F00D78 /* AgriNovaWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9AF672BA46587F362E296C06 /* Exceptions */,
+			);
+			path = AgriNovaWidget;
+			sourceTree = "<group>";
+		};
+		98C11BE257B9E21421285CC8 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		176453DFBB783EA8C191408C /* AgriNovaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AgriNovaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8086834F59E340A0ADF24567 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698F2D94A49B85504C984363 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D700D8FED50B30ACF7359A = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F222318E039819254032BAEC = {
+			isa = PBXGroup;
+			children = (
+				4A2835DD0D8AC44855F98148 /* AgriNova */,
+				5FF55100F39EE4C007F00D78 /* AgriNovaWidget */,
+				98C11BE257B9E21421285CC8 /* Shared */,
+				176453DFBB783EA8C191408C /* AgriNovaTests */,
+				F6A707F8FA68EB722B72EFAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A707F8FA68EB722B72EFAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FFABF25E6D54C720390573 /* AgriNova.app */,
+				56A245907AD4DE5C168BE485 /* AgriNovaWidget.appex */,
+				47E010B8ECCC1E5721158452 /* AgriNovaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		677B8D180513F29BF4783CAB /* AgriNova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE58D9A6DDC4AF0BCBC706F /* Build configuration list for PBXNativeTarget "AgriNova" */;
+			buildPhases = (
+				EBECDE4876C83D7ED5F27846,
+				8086834F59E340A0ADF24567,
+				D9AA9C3873381B3943E9D1EF,
+				225A1C698017EB878D95FCE6,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853B2CE4D94AD1E26B66970B,
+			);
+			fileSystemSynchronizedGroups = (
+				4A2835DD0D8AC44855F98148 /* AgriNova */,
+				98C11BE257B9E21421285CC8 /* Shared */,
+			);
+			name = AgriNova;
+			packageProductDependencies = (
+			);
+			productName = AgriNova;
+			productReference = 82FFABF25E6D54C720390573 /* AgriNova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3A7B6F1242ABC70B097D8D /* AgriNovaWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C5B5E7454C82CCC9540691A /* Build configuration list for PBXNativeTarget "AgriNovaWidget" */;
+			buildPhases = (
+				F0F05BF5D47862758DBFBD5D,
+				698F2D94A49B85504C984363,
+				65CD3D61DE6B94D566A8E4A6,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5FF55100F39EE4C007F00D78 /* AgriNovaWidget */,
+				98C11BE257B9E21421285CC8 /* Shared */,
+			);
+			name = AgriNovaWidget;
+			packageProductDependencies = (
+			);
+			productName = AgriNovaWidget;
+			productReference = 56A245907AD4DE5C168BE485 /* AgriNovaWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B0CAD60E15B8AAD946BA5D13 /* AgriNovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9EF4C1D03BCCEB3BB3CF7D /* Build configuration list for PBXNativeTarget "AgriNovaTests" */;
+			buildPhases = (
+				A0527A9F894C793BEF300F15,
+				21D700D8FED50B30ACF7359A,
+				2793FC61F2D26B2DC7F78967,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F489C971051986F46E0479,
+			);
+			fileSystemSynchronizedGroups = (
+				176453DFBB783EA8C191408C /* AgriNovaTests */,
+			);
+			name = AgriNovaTests;
+			packageProductDependencies = (
+			);
+			productName = AgriNovaTests;
+			productReference = 47E010B8ECCC1E5721158452 /* AgriNovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730E3AE3B09616860B61B410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					677B8D180513F29BF4783CAB = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					9A3A7B6F1242ABC70B097D8D = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					B0CAD60E15B8AAD946BA5D13 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 677B8D180513F29BF4783CAB;
+					};
+				};
+			};
+			buildConfigurationList = DBD15A6FA29CCE79283F5F49 /* Build configuration list for PBXProject "AgriNova" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				si,
+				ta,
+				Base,
+			);
+			mainGroup = F222318E039819254032BAEC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6A707F8FA68EB722B72EFAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677B8D180513F29BF4783CAB /* AgriNova */,
+				9A3A7B6F1242ABC70B097D8D /* AgriNovaWidget */,
+				B0CAD60E15B8AAD946BA5D13 /* AgriNovaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9AA9C3873381B3943E9D1EF = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CD3D61DE6B94D566A8E4A6 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2793FC61F2D26B2DC7F78967 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBECDE4876C83D7ED5F27846 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F05BF5D47862758DBFBD5D = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0527A9F894C793BEF300F15 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853B2CE4D94AD1E26B66970B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3A7B6F1242ABC70B097D8D /* AgriNovaWidget */;
+			targetProxy = A80B1E4F3C1CCE3FDFF3F58C /* PBXContainerItemProxy */;
+		};
+		07F489C971051986F46E0479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 677B8D180513F29BF4783CAB /* AgriNova */;
+			targetProxy = 8BA815B399758A5D7F6F3043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		937809F06EFBAAE187F5CE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		908FB750BA8E48985B4DCCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_APPROACHABLE_CONCURRENCY = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D194D3BB73E3951F88A2A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgriNova/AgriNova.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AgriNova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app;
+			};
+			name = Debug;
+		};
+		E03108224CA5AA10EF12EF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AgriNova/AgriNova.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AgriNova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app;
+			};
+			name = Release;
+		};
+		B05F47846F851A75E7EBC1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_ENTITLEMENTS = AgriNovaWidget/AgriNovaWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AgriNovaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app.widget;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBF1075CDB1F5B8848006D38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_ENTITLEMENTS = AgriNovaWidget/AgriNovaWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AgriNovaWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app.widget;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08D79A8D32D293491F018DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app.tests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgriNova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AgriNova";
+			};
+			name = Debug;
+		};
+		F5DEF6B8384ECB0BD4BD6CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agrinova.app.tests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgriNova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AgriNova";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD15A6FA29CCE79283F5F49 /* Build configuration list for PBXProject "AgriNova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				937809F06EFBAAE187F5CE77,
+				908FB750BA8E48985B4DCCBF,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE58D9A6DDC4AF0BCBC706F /* Build configuration list for PBXNativeTarget "AgriNova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D194D3BB73E3951F88A2A52,
+				E03108224CA5AA10EF12EF88,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C5B5E7454C82CCC9540691A /* Build configuration list for PBXNativeTarget "AgriNovaWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B05F47846F851A75E7EBC1A2,
+				FBF1075CDB1F5B8848006D38,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9EF4C1D03BCCEB3BB3CF7D /* Build configuration list for PBXNativeTarget "AgriNovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D79A8D32D293491F018DC3,
+				F5DEF6B8384ECB0BD4BD6CEA,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730E3AE3B09616860B61B410 /* Project object */;
+}
