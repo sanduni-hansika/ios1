@@ -1,0 +1,11 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+.DS_Store
+# machine learning working files (keep the scripts, not the data / environment)
+ml/dataset/
+ml/venv/
+ml/.pv/
+ml/*.mlpackage

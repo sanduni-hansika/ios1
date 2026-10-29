@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simulated walk toward "Tomato Block A" (7.2610, 80.5975, r=150 m), through it, then away.
+     Use with the demo farm from Settings > Seed Data console.
+     Xcode: Debug > Simulate Location > AgriNova-FarmWalk (while the app runs). -->
+<gpx version="1.1" creator="AgriNova" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="7.2540" lon="80.5900"><name>Start (far)</name><time>2026-01-01T06:00:00Z</time></wpt>
+  <wpt lat="7.2560" lon="80.5925"><name>Approaching</name><time>2026-01-01T06:00:08Z</time></wpt>
+  <wpt lat="7.2580" lon="80.5945"><name>Closer</name><time>2026-01-01T06:00:16Z</time></wpt>
+  <wpt lat="7.2598" lon="80.5958"><name>Nursery edge</name><time>2026-01-01T06:00:24Z</time></wpt>
+  <wpt lat="7.2606" lon="80.5970"><name>Farm centre</name><time>2026-01-01T06:00:32Z</time></wpt>
+  <wpt lat="7.2610" lon="80.5975"><name>Inside Tomato Block A</name><time>2026-01-01T06:00:40Z</time></wpt>
+  <wpt lat="7.2612" lon="80.5977"><name>Row 4</name><time>2026-01-01T06:00:55Z</time></wpt>
+  <wpt lat="7.2625" lon="80.5992"><name>Polytunnel B</name><time>2026-01-01T06:01:10Z</time></wpt>
+  <wpt lat="7.2650" lon="80.6020"><name>Leaving</name><time>2026-01-01T06:01:25Z</time></wpt>
+  <wpt lat="7.2700" lon="80.6060"><name>Far away</name><time>2026-01-01T06:01:40Z</time></wpt>
+</gpx>

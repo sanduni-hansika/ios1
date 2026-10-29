@@ -1,0 +1,2 @@
+Place the trained Core ML model here, named exactly:  AgriNovaLeaf.mlpackage  (or AgriNovaLeaf.mlmodel)
+See docs/ML_MODEL_GUIDE.md. Then run ./scripts/bootstrap.sh again so Xcode compiles it into the app.
